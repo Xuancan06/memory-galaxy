@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Memories - 8/3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+
+    <div class="overlay">
+        <div class="title">
+            <div class="line1">Happy Women's Day 8/3</div>
+        </div>
+    </div>
+
+    <div class="preview" id="preview">
+        <button class="preview-close" id="previewClose" type="button">Close</button>
+        <img class="preview-image" id="previewImage" alt="Memory preview">
+        <div class="preview-title" id="previewTitle"></div>
+    </div>
+
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-panel">
+            <div class="loading-top">
+                <div class="loading-text-wrap">
+                    <h2>8/3 Memory Galaxy</h2>
+                    <p id="loadingSub">Gathering your best moments...</p>
+                </div>
+                <div class="loading-orbit">
+                    <div class="loading-star"></div>
+                </div>
+            </div>
+            <div class="loading-quote" id="loadingQuote">"8/3 nay, mong em cuoi that xinh nhu mot vi sao."</div>
+            <div class="loading-bar">
+                <div class="loading-fill" id="loadingFill"></div>
+            </div>
+            <div class="loading-meta">
+                <span id="loadingStep">Preparing sky</span>
+                <span id="loadingPercent">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
+
